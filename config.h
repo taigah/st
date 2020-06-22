@@ -93,29 +93,30 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-// https://github.com/honza/base16-st/blob/master/build/base16-chalk-theme.h
+// basé sur snazzy
+// https://github.com/xxczaki/deepin-snazzy/blob/master/snazzy
 static const char *colorname[] = {
-  "#151515", /* base00 */
-  "#fb9fb1", /* base08 */
-  "#acc267", /* base0B */
-  "#ddb26f", /* base0A */
-  "#6fc2ef", /* base0D */
-  "#e1a3ee", /* base0E */
-  "#12cfc0", /* base0C */
-  "#d0d0d0", /* base05 */
-  "#505050", /* base03 */
-  "#eda987", /* base09 */
-  "#202020", /* base01 */
-  "#303030", /* base02 */
-  "#b0b0b0", /* base04 */
-  "#e0e0e0", /* base06 */
-  "#deaf8f", /* base0F */
-  "#f5f5f5", /* base07 */
+  "#282a36",
+  "#ff5c57",
+  "#5af78e",
+  "#f3f99d",
+  "#57c7ff",
+  "#ff6ac1",
+  "#9aedfe",
+  "#ffffff",
+  "#444444",
+  "#ff5c57",
+  "#5af78e",
+  "#f3f99d",
+  "#57c7ff",
+  "#ff6ac1",
+  "#9aedfe",
+  "#ffffff"
 };
 
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 13;
+static unsigned int defaultcs = 7;
 static unsigned int defaultrcs = 0;
 
 /*
